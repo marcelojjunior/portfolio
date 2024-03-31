@@ -6,7 +6,7 @@ import SwitchLanguage from "../../Components/SwitchLanguage";
 export default function DefaultLayout() {
     return (
         <div className="">
-            <div className="flex flex-col gap-4 container mx-auto pt-28 pb-4 px-4 md:px-0">
+            <div className="flex flex-col gap-4 container mx-auto pt-16 pb-4 px-4 md:px-0">
                 <div className="w-full flex justify-end">
                     <SwitchLanguage />
                 </div>

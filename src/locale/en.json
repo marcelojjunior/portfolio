@@ -1,5 +1,12 @@
 {
     "translation": {
-        "about": "About"
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "software_engineer": "Software Engineer",
+        "email": "Email",
+        "location": "Location",
+        "birthday": "Birthday",
+        "download_cv": "Download CV"
     }
 }

@@ -1,5 +1,12 @@
 {
     "translation": {
-        "about": "Sobre"
+        "about": "Sobre",
+        "projects": "Projetos",
+        "contact": "Contato",
+        "software_engineer": "Engenheiro de Software",
+        "email": "Email",
+        "location": "Localização",
+        "birthday": "Aniversário",
+        "download_cv": "Baixar CV"
     }
 }

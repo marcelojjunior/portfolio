@@ -34,13 +34,13 @@ export default function SideMenu() {
             <Link to="/projects" className={`item-menu-side ${active === 'projects' ? 'bg-primary-blue text-white' : 'bg-white'}`}>
                 <BsSuitcaseLg size={20} />
                 <span>
-                    Projects
+                    {t('projects')}
                 </span>
             </Link>
             <Link to="/contact" className={`item-menu-side ${active === 'contact' ? 'bg-primary-blue text-white' : 'bg-white'}`}>
                 <TiContacts size={20} />
                 <span>
-                    Contato
+                    {t('contact')}
                 </span>
             </Link>
         </div>
