@@ -8,6 +8,9 @@ export default {
     extend: {
       backgroundImage: {
         'shiny': "url('./src/assets/images/background.svg')",
+      },
+      colors: {
+        'primary-blue': '#133960',
       }
     },
   },
