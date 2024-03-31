@@ -1,4 +1,6 @@
+import { BsSuitcaseLg } from "react-icons/bs";
 import { FaRegUser } from "react-icons/fa";
+import { TiContacts } from "react-icons/ti";
 import { Link } from "react-router-dom";
 
 export default function SideMenu() {
@@ -10,10 +12,16 @@ export default function SideMenu() {
                     About
                 </span>
             </Link>
-            <Link to="/teste" className="item-menu-side">
-                <FaRegUser size={20} />
+            <Link to="/projects" className="item-menu-side">
+                <BsSuitcaseLg size={20} />
                 <span>
                     Projects
+                </span>
+            </Link>
+            <Link to="/contact" className="item-menu-side">
+                <TiContacts size={20} />
+                <span>
+                    Contato
                 </span>
             </Link>
         </div>

@@ -9,7 +9,7 @@ export default function DefaultLayout() {
                 <aside>
                     <SideProfile />
                 </aside>
-                <main>
+                <main className="w-full">
                     <Outlet />
                 </main>
                 <nav>

@@ -10,23 +10,23 @@ export default function SideProfile() {
             <img className="rounded-lg w-48 h-48 object-cover -mt-32" src="https://github.com/marcelojjunior.png" alt="Profile" />
             <div className="flex flex-col justify-center items-center gap-2">
                 <p className="text-lg font-semibold">Marcelo Junior</p>
-                <span className="text-sm px-3 py-2 bg-gray-50 rounded-md">
+                <span className="text-sm px-3 py-2 bg-gray-100 rounded-md">
                     Software Engineer
                 </span>
                 <div className="flex gap-2">
-                    <Link to="#" className="p-2 bg-gray-50 rounded-md">
+                    <Link to="#" className="p-2 bg-gray-100 rounded-md">
                         <FaGithub size={20} />
                     </Link>
-                    <Link to="#" className="p-2 bg-gray-50 rounded-md">
+                    <Link to="#" className="p-2 bg-gray-100 rounded-md">
                         <FaInstagram size={20} />
                     </Link>
-                    <Link to="#" className="p-2 bg-gray-50 rounded-md">
+                    <Link to="#" className="p-2 bg-gray-100 rounded-md">
                         <FaLinkedinIn size={20} />
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 bg-gray-50 p-3 rounded-md w-full">
-                <div className="flex items-center gap-2">
+            <div className="flex flex-col bg-gray-100 p-3 rounded-md w-full divide-y">
+                <div className="flex items-center gap-2 py-2">
                     <span className="bg-white flex items-center justify-center p-1 rounded-md">
                         <MdOutlineMailOutline size={18} />
                     </span>
@@ -35,7 +35,7 @@ export default function SideProfile() {
                         <p className="text-sm font-normal">lVg7H@example.com</p>
                     </div>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 py-2">
                     <span className="bg-white flex items-center justify-center p-1 rounded-md">
                         <MdLocationPin size={18} />
                     </span>
@@ -44,7 +44,7 @@ export default function SideProfile() {
                         <p className="text-sm font-normal">São Paulo - SP</p>
                     </div>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 py-2">
                     <span className="bg-white flex items-center justify-center p-1 rounded-md">
                         <FaRegCalendarAlt size={18} />
                     </span>
