@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    @apply font-comfortaa;
+}
+
 .item-menu-side{
     @apply flex flex-col items-center text-base gap-2 rounded-lg p-2 hover:bg-primary-blue font-medium hover:text-white;
 }
