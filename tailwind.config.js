@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'shiny': "url('./src/assets/images/background.svg')",
+      }
+    },
   },
   plugins: [],
 }
