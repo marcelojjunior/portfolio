@@ -4,10 +4,14 @@ import { initReactI18next } from 'react-i18next';
 import enTranslation from '../locale/en.json';
 import ptTranslation from '../locale/pt.json';
 
+const initalLng = 'pt';
+
+const currentLanguageUSer = localStorage.getItem('currentLanguage');
+
 i18n.use(initReactI18next).init({
     resources: {
         en: enTranslation,
         pt: ptTranslation
     },
-    lng: 'pt',
+    lng: currentLanguageUSer || initalLng,
 })

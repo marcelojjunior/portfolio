@@ -13,13 +13,19 @@ export default function SwitchLanguage() {
         <div className="flex gap-2 bg-white p-4 rounded-lg">
             <button
                 className={`p-2 rounded-md font-medium ${currentLanguage === "en" ? "bg-primary-blue text-white" : "bg-white"}`}
-                onClick={() => handleChangeLanguage("en")}
+                onClick={() => {
+                    handleChangeLanguage("en")
+                    localStorage.setItem('currentLanguage', 'en');
+                }}
             >
                 EN
             </button>
             <button
                 className={`p-2 rounded-md font-medium ${currentLanguage === "pt" ? "bg-primary-blue text-white" : "bg-white"}`}
-                onClick={() => handleChangeLanguage("pt")}
+                onClick={() => {
+                    handleChangeLanguage("pt")
+                    localStorage.setItem('currentLanguage', 'pt');
+                }}
             >
                 PT
             </button>
