@@ -1,12 +1,19 @@
 {
     "translation": {
         "about": "About",
+        "resume": "Resume",
         "projects": "Projects",
         "contact": "Contact",
         "software_engineer": "Software Engineer",
         "email": "Email",
         "location": "Location",
         "birthday": "Birthday",
-        "download_cv": "Download CV"
+        "download_cv": "Download CV",
+        "about_info": {
+            "p1": "Hello! I'm Marcelo Junior, a passionate professional in the field of development, 23 years old, and a graduate in Information Systems from Unibalsas in Balsas-MA.",
+            "p2": "Currently, I am part of the front-end development team at Buzzvel, a company based in Portugal, specialized in the development of Web Systems, Websites, and Applications.",
+            "p3": "I have a solid experience with various tools and technologies, including HTML, CSS, JavaScript, TypeScript, Tailwind, ReactJs, Laravel, PHP, Wordpress, and GIT.",
+            "p4": "I am dedicated, collaborative, and love working in teams. My professional journey is marked by a constant pursuit of learning, always aiming to improve and grow each day."
+        }
     }
 }

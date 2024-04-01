@@ -4,7 +4,7 @@ import {
     Route,
 } from "react-router-dom";
 import PublicRoutes from "./PublicRoutes";
-import { Home, Projects, Contact } from "./routes";
+import { Home, Projects, Contact, Resume } from "./routes";
 import DefaultLayout from "../layouts/DefaultLayout";
 
 export const routes = createBrowserRouter(
@@ -14,6 +14,7 @@ export const routes = createBrowserRouter(
                 <Route index element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/resume" element={<Resume />} />
             </Route>
         </Route>
     )
