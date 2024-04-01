@@ -26,7 +26,7 @@ export default function SideMenu() {
     }, [location]);
 
     return (
-        <div className="bg-white p-4 rounded-lg flex flex-col gap-3">
+        <div className="bg-white p-4 rounded-lg justify-center flex flex-row lg:flex-col gap-3">
             <Link to="/" className={`item-menu-side ${active === 'about' ? 'bg-primary-blue text-white' : 'bg-white'}`}>
                 <FaRegUser size={20} />
                 <span>

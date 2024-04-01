@@ -7,7 +7,7 @@ html{
 }
 
 body {
-    @apply bg-shiny;
+    @apply bg-shiny bg-no-repeat bg-cover;
 }
 
 ::-webkit-scrollbar {

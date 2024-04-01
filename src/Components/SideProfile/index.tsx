@@ -10,7 +10,7 @@ export default function SideProfile() {
     const { t } = useTranslation();
 
     return (
-        <div className="bg-white py-6 px-6 rounded-lg flex flex-col justify-center items-center gap-3 min-w-72">
+        <div className="bg-white py-6 px-6 rounded-lg flex flex-col justify-center items-center gap-3 w-full md:min-w-72">
             <img className="rounded-lg w-48 h-48 object-cover -mt-32" src="https://github.com/marcelojjunior.png" alt="Profile" />
             <div className="flex flex-col justify-center items-center gap-2">
                 <p className="text-lg font-semibold">Marcelo Junior</p>
@@ -59,7 +59,7 @@ export default function SideProfile() {
                 </div>
             </div>
 
-            <a href={profilePdf} download className="flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 bg-primary-blue">
+            <a href={profilePdf} download className="flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 bg-primary-blue hover:opacity-80">
                 <HiOutlineDownload size={20} />
                 <span>
                     {t('download_cv')}
