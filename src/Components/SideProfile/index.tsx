@@ -4,6 +4,8 @@ import { HiOutlineDownload } from "react-icons/hi";
 import { MdLocationPin, MdOutlineMailOutline } from "react-icons/md";
 import { Link } from "react-router-dom";
 
+import profilePdf from '../../assets/pdf/profile.pdf'
+
 export default function SideProfile() {
     const { t } = useTranslation();
 
@@ -16,13 +18,13 @@ export default function SideProfile() {
                     {t('software_engineer')}
                 </span>
                 <div className="flex gap-2">
-                    <Link to="#" className="p-2 bg-gray-100 rounded-md">
+                    <Link to="https://github.com/marcelojjunior" target="_blank" className="p-2 bg-gray-100 rounded-md hover:bg-primary-blue hover:text-white">
                         <FaGithub size={20} />
                     </Link>
-                    <Link to="#" className="p-2 bg-gray-100 rounded-md">
+                    <Link to="https://www.instagram.com/marcelojjunior_/" target="_blank" className="p-2 bg-gray-100 rounded-md hover:bg-primary-blue hover:text-white">
                         <FaInstagram size={20} />
                     </Link>
-                    <Link to="#" className="p-2 bg-gray-100 rounded-md">
+                    <Link to="https://www.linkedin.com/in/marcelojjunior/" target="_blank" className="p-2 bg-gray-100 rounded-md hover:bg-primary-blue hover:text-white">
                         <FaLinkedinIn size={20} />
                     </Link>
                 </div>
@@ -57,12 +59,12 @@ export default function SideProfile() {
                 </div>
             </div>
 
-            <Link to="#" className="flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 bg-primary-blue">
+            <a href={profilePdf} download className="flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 bg-primary-blue">
                 <HiOutlineDownload size={20} />
                 <span>
                     {t('download_cv')}
                 </span>
-            </Link>
+            </a>
 
         </div>
     )
