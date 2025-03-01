@@ -3,22 +3,35 @@
 @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-maven-pro: var(--font-geist-maven-pro);
+
+  --color-main-red: #E3646E;
+  --color-main-purple: #BB72E9;
+  --color-main-blue: #3996DB;
+  --color-main-green: #82BC4F;
+  --color-main-yellow: #EABD5F;
+  --color-gray-100: #0D0E11;
+  --color-gray-200: #16181D;
+  --color-gray-300: #292C34;
+  --color-gray-400: #878EA1;
+  --color-gray-500: #C0C4CE;
+  --color-gray-600: #E2E4E9;
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--color-gray-200);
+  --foreground: var(--color-gray-200);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--color-gray-200);
+    --foreground: var(--color-gray-200);
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-maven-pro);
 }
