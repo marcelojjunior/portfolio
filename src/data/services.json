@@ -1,0 +1,24 @@
+{
+    "data": {
+        "services": [
+            {
+                "id": 1,
+                "type": "webdevelopment",
+                "title": "Websites e Aplicativos",
+                "description": "Desenvolvimento de interfaces"
+            },
+            {
+                "id": 2,
+                "type": "database",
+                "title": "API e banco de dados",
+                "description": "Criação de serviços do sistema "
+            },
+            {
+                "id": 3,
+                "type": "devops",
+                "title": "DevOps",
+                "description": "Gestão e infraestrutura da aplicação"
+            }
+        ]
+    }
+}
